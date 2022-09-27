@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -17,5 +16,4 @@ spec:
       - image: quay.io/testing-farm/nginx:1.12
         name: nginx
         ports:
-        - containerPort: 80       
-...
+        - containerPort: 80
